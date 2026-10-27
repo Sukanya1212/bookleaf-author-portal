@@ -1,0 +1,12 @@
+{
+  "name": "bookleaf-author-support-portal",
+  "version": "1.0.0",
+  "description": "BookLeaf Publishing - Author Support & Communication Portal",
+  "private": true,
+  "scripts": {
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "build:client": "npm --prefix client run build",
+    "seed": "npm --prefix server run seed"
+  }
+}

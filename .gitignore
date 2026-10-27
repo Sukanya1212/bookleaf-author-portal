@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment Variables & Secrets (CRITICAL: Never push API keys)
+.env
+.env.*
+server/.env
+server/.env.*
+*.env
+
+# Confidential Assignment Materials & PDFs
+*.pdf
+BookLeaf_Technical_Assignment_1.pdf
+docs/
+
+# Local Database & SQLite Artifacts
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+server/dev.db
+server/dev.db-journal
+
+# Production Builds & Bundles
+dist/
+build/
+client/dist/
+
+# Logs & Diagnostics
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System & OS Files
+.DS_Store
+Thumbs.db
